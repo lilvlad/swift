@@ -1,0 +1,90 @@
+*{
+    font-family: 'Poppins', sans-serif !important;
+    margin: 0px;
+}
+
+body{
+  background-color: #EAEAEA;  
+}
+
+.container1 {
+    height: 250px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #ffffff; 
+}
+
+.button-container {
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 20px !important;
+}
+
+.button-container button {
+    margin: 0 30px !important;
+}
+  
+h1, h3{
+    font-weight: bolder;
+    margin-bottom: 1em;
+    padding: 0%;
+    color: #2FB383;
+}
+
+h2{
+    text-align: center;
+    font-weight: bolder !important;
+    margin-bottom: 0.5em !important;
+    padding-top: 10px !important;
+}
+
+span{
+    color :#2FB383 !important;
+}
+
+#title{
+    color: #212529 !important;
+}
+
+.card-body{
+    margin: 20px;
+    padding: 50px;
+    background-color: #EAEAEA;
+    border-radius: 60px;
+}
+
+.table.table-stripped td {
+    border: none;
+    font-weight: bolder;
+
+}
+
+.table.table-stripped th {
+    border: none;
+
+}
+
+.hr-container-inicio {
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 1380px) and (max-width: 1745px) {
+    .container1 {
+        background-image: url('wave_nova.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: auto;
+    }
+}
+
+@media (max-width: 1379px) and (min-width: 1746px) {
+    .container1 {
+        background-color: #EAEAEA !important;
+    }
+}
+
+

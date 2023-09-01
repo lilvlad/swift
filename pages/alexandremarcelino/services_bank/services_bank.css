@@ -1,0 +1,72 @@
+* {
+  font-family: "Poppins", sans-serif;
+  --main-color: #2fb383;
+  --main-color-hover: #3e9a78;
+  /*  transition: all 0.3s ease !important; */
+}
+
+.banner {
+  min-height: 250px;
+  background-image: url(../img/mapbase.png);
+}
+.card {
+  max-width: 450px;
+  border: none;
+  margin-inline: 2rem;
+  border-radius: 20px !important;
+}
+
+.card-header,
+.premium,
+.standart,
+.plus {
+  border-top-left-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+}
+small {
+  font-size: 1.2rem !important;
+  font-weight: bold;
+}
+
+.card .btn {
+  width: 90% !important;
+  padding-block: 0.8rem !important;
+  font-size: 1.2rem !important;
+  font-weight: 600 !important;
+}
+
+.premium {
+  background-color: #e3c254 !important;
+}
+.card.premium {
+  transform: scale(1.1);
+}
+
+.plans_swift {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 4rem;
+}
+.plans {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+ul {
+  list-style-type: none;
+}
+
+.svg-icon {
+  width: 1em;
+  height: 1em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: black;
+}
+
+.svg-icon circle {
+  stroke: black;
+  stroke-width: 1;
+}

@@ -1,0 +1,26 @@
+*{
+    font-family: 'Poppins', sans-serif !important;
+    margin: 0px;
+}
+
+.btn{
+    background-color: #18A86B !important;
+    border: none;
+    color: white;
+}
+
+#sublinhado{
+    color: #18A86B !important;
+}
+
+#CriptoBanner{
+    background-image: url( '/img/wave.svg' ) !important;
+}
+
+h3{
+    color: white !important;
+}
+
+#card-bg{
+    background-color: #1B1B1B !important;
+}

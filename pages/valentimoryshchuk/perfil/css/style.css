@@ -1,0 +1,236 @@
+* {
+  font-family: "Poppins", sans-serif;
+  --main-color: #2fb383;
+  --main-color-hover: #3e9a78;
+  /*  transition: all 0.3s ease !important; */
+  --brd-radius: 10px;
+}
+
+body {
+  margin: 0 auto;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background-color: #eaeaea;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: var(--brd-radius);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.alert {
+  border-radius: 20px;
+}
+.has-error {
+  border-color: #cc0000;
+  /* background-color: #ffff99; */
+}
+.error-margin {
+  margin-bottom: -1rem !important;
+}
+
+/* .container1 {
+  max-width: 1300px;
+} */
+
+.banner {
+  background-color: #101928;
+  padding: 20px;
+  background-image: url(../../../../assets/Mapa.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+}
+
+.round {
+  position: relative;
+  background: var(--main-color);
+  left: 70%;
+  bottom: 20%;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  border-radius: 50%;
+  overflow: hidden;
+  line-height: 30px;
+  /* transition: all 0.3s ease; */
+}
+.round:hover {
+  background: var(--main-color-hover);
+}
+
+.round input[type="file"] {
+  position: absolute;
+  transform: scale(2);
+  opacity: 0;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  cursor: pointer;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .banner img {
+  max-width: 1920px;
+} */
+
+/* .btn-primary {
+  background-color: var(--main-color) !important;
+  border: 1px solid var(--main-color) !important;
+
+}
+
+.btn-primary:hover {
+  background-color: var(--main-color-hover) !important;
+  border: 10px solid var(--main-color-hover) !important;
+} */
+
+.btn {
+  border-radius: var(--brd-radius) !important;
+}
+
+.banner-utilizador {
+  background-color: #101928;
+  padding: 20px;
+  background-image: url(../../../../assets/Mapa.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+}
+
+.banner-utilizador .bem-vindo {
+  margin-top: 3.5rem;
+  color: aliceblue;
+  font-size: 36px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.banner-utilizador .bem-vindo span {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.conteudo-banner {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.banner-utilizador .links {
+  text-align: left;
+}
+
+.banner-perfil {
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.banner-photos {
+  display: flex;
+}
+
+.banner-imagens {
+  margin-right: auto;
+  padding: 40px 0 0 40px;
+  margin-right: 20px;
+}
+
+.banner-imagens img,
+.banner-imagens .round {
+  opacity: 1;
+}
+.input-group-text img {
+  width: 1.3rem;
+  margin-right: 4px;
+}
+
+input,
+.form-select {
+  border-radius: var(--brd-radius) !important;
+}
+
+.input-group-text {
+  border-radius: var(--brd-radius) 0 0 var(--brd-radius);
+}
+#telefone {
+  border-radius: 0 var(--brd-radius) var(--brd-radius) 0 !important;
+}
+
+.texto-pass {
+  display: flex;
+  justify-content: space-between;
+}
+
+.texto-pass a {
+  text-decoration: underline !important;
+  color: #458cf6 !important;
+  cursor: pointer !important;
+  margin-inline: 6px !important;
+  transition: all 0.3s;
+}
+.texto-pass a:hover {
+  color: #3374d6 !important;
+}
+
+.mostrar {
+  display: none;
+}
+
+@media screen and (max-width: 32rem) {
+  .fundo {
+    height: 25vh;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .banner-utilizador .bem-vindo {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+    text-align: center;
+  }
+
+  .banner-utilizador .bem-vindo span {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  .conteudo-banner {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .banner-photos {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .banner-imagens {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .round {
+    left: 60%;
+    bottom: 1rem;
+  }
+}

@@ -1,0 +1,164 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    --main-color: #2fb383;
+    --main-color-hover: #3e9a78;
+    --brd-radius: 10px;
+}
+
+body {
+  height: 100vh;
+}
+
+.container-contato{
+  width: 500px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.has-error {
+  border-color: #cc0000;
+}
+
+.all{
+  margin-bottom: 10px;
+}
+
+.mensagemErro {
+  margin: 0 auto !important;
+  width: 400px;
+  border-radius: 20px !important;
+  height: 80px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  align-items: center; /* Add this line */
+  padding: 0 20px 0 20px !important;
+  background-color: #971111 !important;
+  color: white !important;
+}
+
+.Mensagem{
+  margin: 0 !important;
+}
+
+.alert-dismissible .btn-close{
+  position: unset !important;
+  padding: 0 !important;
+  padding: 0 20px 0px 0 !important;
+}
+
+.alert-dismissible .btn-close:hover{
+ background-color: transparent !important;
+}
+
+
+.text-center {
+  color: #6c757d;
+}
+
+.container-all{
+  margin: 100px 0 100px 0;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.grupo-formulario {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"]{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    resize: none !important;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  color: #232323;
+  border: 1px solid black;
+  border-radius: 25px !important;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover {
+  transition: ease-in-out 200ms;
+  color: #ffffff;
+  background-color: #2fb383;
+  border: none;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: var(--brd-radius);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.box {
+  width: 30vw;
+  margin-block: 8rem;
+}
+.alert {
+  border-radius: 20px;
+}
+
+
+.inactive_tab1 {
+  background-color: #f5f5f5;
+  color: #333;
+  cursor: not-allowed;
+}
+.inactive_tab1:hover {
+  color: var(--main-color-hover);
+}
+.mg {
+  margin-top: -0.5rem !important;
+}
+input {
+  border-radius: var(--brd-radius) !important;
+}
+
+
+@media screen and (max-width: 64rem) {
+  .box {
+    width: 100vw;
+  }
+}
